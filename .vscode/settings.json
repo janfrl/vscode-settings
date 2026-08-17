@@ -65,6 +65,7 @@
   "terminal.integrated.tabs.enabled": true,
 
   // ========== Workbench Behavior ==========
+  "workbench.browser.openLocalhostLinks": false,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.highlightModifiedTabs": true,
