@@ -20,7 +20,7 @@
   "workbench.colorTheme": "Vitesse Dark",
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.tabActionLocation": "left",
-  "workbench.fontAliasing": "antialiased",
+  "workbench.fontAliasing": "antialiased", // macOS only
   "workbench.iconTheme": "file-icons",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "Vitesse Dark",
@@ -42,7 +42,7 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
-  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": true,
   "editor.stickyScroll.enabled": true,
   "editor.hover.sticky": true,
   "editor.codeActionsOnSave": {
@@ -51,7 +51,7 @@
     "source.organizeImports": "never"
   },
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDragAndDrop": true,
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
@@ -74,28 +74,17 @@
   "workbench.editor.limit.perEditorGroup": true,
   "workbench.editor.limit.value": 5,
   "search.exclude": {
-    "**/*.snap": true,
-    "**/*.svg": true,
     "**/.git": true,
-    "**/.github": false,
     "**/.nuxt": true,
     "**/.output": true,
     "**/.pnpm": true,
-    "**/.vscode": true,
     "**/.yarn": true,
-    "**/assets": true,
     "**/bower_components": true,
     "**/dist/**": true,
     "**/logs": true,
     "**/node_modules": true,
     "**/out/**": true,
-    "**/package-lock.json": true,
-    "**/pnpm-lock.yaml": true,
-    "**/public": true,
-    "**/temp": true,
-    "**/yarn.lock": true,
-    "**/CHANGELOG*": true,
-    "**/LICENSE*": true,
+    "**/temp": true
   },
 
   // ========== Language Overrides ==========
@@ -130,7 +119,6 @@
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "eslint.quiet": true,
   // Silent the stylistic rules in you IDE, but still auto fix them
   "eslint.rules.customizations": [
     { "rule": "style/*", "severity": "off", "fixable": true },
