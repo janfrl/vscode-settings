@@ -10,12 +10,8 @@
     "EditorConfig.EditorConfig",
     "vivaxy.vscode-conventional-commits",
     "eamodio.gitlens",
-    "ms-vsliveshare.vsliveshare",
-    "Gruntfuggly.todo-tree",
 
     // life savers!
-    "GitHub.copilot",
-    "GitHub.copilot-chat",
     "usernamehw.errorlens",
     "naumovs.color-highlight",
     "YoavBls.pretty-ts-errors",
@@ -24,19 +20,17 @@
     "lokalise.i18n-ally",
     "antfu.iconify",
     "fabiospampinato.vscode-open-in-github",
-    "antfu.open-in-github-button",
 
     // markdown support
     "yzhang.markdown-all-in-one",
     "bierner.markdown-mermaid",
-    
+
     // utilities & tools
-    "antfu.browse-lite",
-    "antfu.slidev",
-    
+    "bruno-api-client.bruno",
+    "vitest.explorer",
+
     // Vue ecosystem
     "antfu.unocss",
-    "antfu.vite",
     "Vue.volar",
     "Nuxtr.nuxtr-vscode",
     "Nuxt.mdc",
